@@ -1,0 +1,4 @@
+ID,hospital_name,Location,Nearby_Amenities,Condition,Number_of_Beds,Number_of_Doctors,Size,year_built,Parking_Spaces,Rating
+1,Central_Hospital,Kicukiro,"School, Market",Excellent,200,50,5000,2015,50,4.8
+2,Nyarutarama_Care,Nyarutarama,"Mall, Hospital",Good,150,30,3000,2012,30,4.5
+3,Remera_Clinic,Remera,"Bus Stop, Gym",New,100,20,2000,2020,20,4.7
