@@ -51,7 +51,7 @@ const handleSubmit = async (e) => {
           <div className="flex items-center gap-3 mb-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-10 w-10 text-[#E08543]"
+              className="h-10 w-10 text-[#ffb8e0]"
               width="24"
               height="24"
               viewBox="0 0 24 24"
@@ -72,8 +72,9 @@ const handleSubmit = async (e) => {
           </div>
 
           <h2 className="text-4xl md:text-5xl font-bold leading-tight">
-            <span className="text-[#E08543]">Evaluate</span> Your Hospital's
-            <span className="text-[#E08543]"> Excellence</span>
+            <span className="text-[#FFB8E0]">Evaluate</span> Your Hospital's
+<span className="text-[#FFB8E0]"> Excellence</span>
+
           </h2>
 
           <p className="text-xl text-gray-200">
@@ -279,11 +280,12 @@ const handleSubmit = async (e) => {
             </form>
           </div>
           <div className="p-5 border-t border-white/10">
-            <button
-              onClick={handleSubmit}
-              className="w-full py-2.5 px-4 bg-[#E08543] hover:bg-[#E08543]/90 text-white font-medium rounded-md transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#E08543]/50"
-              disabled={loading}
-            >
+          <button
+  onClick={handleSubmit}
+  className="w-full py-2.5 px-4 bg-[#FFB8E0] hover:bg-[#FFB8E0]/90 text-white font-medium rounded-md transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#FFB8E0]/50"
+  disabled={loading}
+>
+
               {loading ? "Analyzing..." : "Predict Hospital Rating"}
             </button>
           </div>
